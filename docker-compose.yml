@@ -2,8 +2,6 @@ version: '3.8'
 services:
   youtube-to-doc:
     build: .
-    ports:
-      - "8000:8000"
     environment:
       - DEBUG=False
     restart: unless-stopped
